@@ -17,7 +17,7 @@
       </ul>
     </div>
     <div class="recent_replies">
-      <h4>最近回复</h4>
+      <h4>最近de回复</h4>
       <ul>
         <li v-for="replies in info.recent_replies"><router-link :to="{name:'content',params:{id:replies.id,author:replies.author.loginname}}">{{replies.title}}</router-link></li>
       </ul>
