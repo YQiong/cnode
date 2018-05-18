@@ -1,6 +1,5 @@
 <template>
  <div class="userinfo">
- 111
     <h4>个人中心</h4>
     <div class="infoBox">
       <div class="info_name">
